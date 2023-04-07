@@ -1,8 +1,4 @@
-# Os alunos da sua turma fizeram uma votação para escolher qual 
-# dia da semana é o melhor para a realização das lives. Desenvolva 
-# um programa em que o usuário informe a quantidade de votos que 
-# cada um dos 5 dias da semana  (segunda-feira, terça-feira, quarta-feira, 
-# quinta-feira e sexta-feira) obtiveram, verifique e exiba qual dia foi o escolhido.
+print('Este algoritimo te diz o dia da semana vencedor de acordo com os votos!')
 
 seg = int(input('Qual total de votos que a segunda-feira teve? '))
 ter = int(input('Qual total de votos que a terça-feira teve? '))
@@ -43,6 +39,8 @@ if sext == voto and vencedor != 'Sexta-Feira':
     empate = empate + ' Sexta-Feira,'
     
 if empate:
-    print(f'Houve empate entre os dias {vencedor}{empate} com {voto} votos! \nTotal de votos: \nSegunda-Feira: {seg} \nTerça-Feira: {ter} \nQuarta-Feira: {quar} \nQuinta-Feira: {qui} \nSexta-Feira: {sext}')
+    print(f'Houve empate entre os dias {vencedor},{empate} com {voto} votos! \nTotal de votos: \nSegunda-Feira: {seg} \nTerça-Feira: {ter} \nQuarta-Feira: {quar} \nQuinta-Feira: {qui} \nSexta-Feira: {sext}')
 else:
     print(f'O dia vencedor foi {vencedor} com {voto} votos! \nTotal de votos: \nSegunda-Feira: {seg} \nTerça-Feira: {ter} \nQuarta-Feira: {quar} \nQuinta-Feira: {qui} \nSexta-Feira: {sext}')
+
+input("Pressione Enter para sair...")

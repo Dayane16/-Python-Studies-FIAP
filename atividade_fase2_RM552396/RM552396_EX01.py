@@ -1,4 +1,4 @@
-print('Este programa calcula o valor do bônus a ser pago com base na assinatura do cliente!')
+print('Este algoritimo calcula o valor do bônus a ser pago com base na assinatura do cliente!')
 
 assinatura = input('Escreva qual seu tipo de assinatura (BASIC, SILVER, GOLD OU PLATINUM): ')
 faturamento = float(input('Qual foi o seu faturamento anual? '))
@@ -17,3 +17,5 @@ else:
     
 if bonus is not None:
     print('O valor do bônus a ser pago é de R${:.2f}'.format(bonus))
+    
+input("Pressione Enter para sair...")
