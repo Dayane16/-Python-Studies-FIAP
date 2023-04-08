@@ -32,3 +32,5 @@ else:
         print('Seu BPM encontra-se acima do indicado')    
     else:
         print('Seu BPM encontra-se no total indicado')         
+
+input("Pressione Enter para sair...")
